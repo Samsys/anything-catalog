@@ -1,0 +1,21 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+#Anything_catalog form{ width: 100%; }
+#Anything_catalog form p{ line-height: 2em; }
+#Anything_catalog form p small{ line-height: 1.2em; display: inline-block; }
+#Anything_catalog form input{ float: right; margin-bottom: .5em; }
+#Anything_catalog form input.button-primary{ float: none; }
+
+#Anything_catalog table th{ width: 20%; }
+#Anything_catalog table th.upd, #Anything_catalog table td.upd{ width: 2.5%; } 
+#Anything_catalog table th.del, #Anything_catalog table td.del{ width: 2.5%; } 
+#Anything_catalog table th small{ line-height: 1.2em; display: inline-block; }
+
+#Anything_catalog tfoot .button-primary, #Anything_catalog tfoot .button-secondary{ float: right; }
+#Anything_catalog table input.all-options{ width: 100%; }
+
+#Anything_catalog .button-secondary.dashicons{ font-size: 1.5em; width: 100%; text-align: center; color: #1E8CBE; }
+#Anything_catalog .button-secondary.dashicons.dashicons-no{ color: #CE1B18; }
+
+
+#Anything_catalog #newTaxRow{ display: none; background: #97BAC9; }
